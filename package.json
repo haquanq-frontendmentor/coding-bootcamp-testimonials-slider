@@ -1,0 +1,13 @@
+{
+  "name": "fm-coding-bootcamp-testimonials-slider",
+  "description": "Solution for frontendmentor.io challenge: coding-bootcamp-testimonials-slider",
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  },
+  "scripts": {
+    "dev": "browser-sync start -s app -f app --no-ui"
+  },
+  "type": "module",
+  "author": "haquanq",
+  "license": "MIT"
+}
