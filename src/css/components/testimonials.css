@@ -134,7 +134,7 @@
         }
 
         &::before {
-            content: url("../assets/images/pattern-quotes.svg");
+            content: url("/assets/images/pattern-quotes.svg");
             top: -1.5625rem;
             left: 50%;
             transform: translateX(-50%);
