@@ -1,0 +1,21 @@
+:root {
+    --color-blue-500: hsl(240, 38%, 20%);
+    --color-blue-100: hsl(240, 18%, 77%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-violet-500: #6d28d9;
+
+    --font-primary: "Inter", sans-serif;
+    --font-thin: 300;
+    --font-normal: 400;
+    --font-bold: 700;
+
+    --text-sm: 0.9375rem;
+    --text-md: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 2rem;
+}
+
+@custom-media --tablet (min-width: 48em);
+@custom-media --laptop (min-width: 64em);

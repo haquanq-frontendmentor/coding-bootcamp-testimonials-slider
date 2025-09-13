@@ -1,0 +1,32 @@
+@import "./base/fonts.css";
+@import "./base/variables.css";
+@import "./base/reset.css";
+
+@import "./components/testimonials.css";
+
+@import "./utils/a11y.css";
+
+main {
+    position: relative;
+    padding-block: 3.375rem 4.875rem;
+    font-family: var(--font-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+
+    @media (--tablet) {
+        padding-inline: 0;
+        padding-block: 7.0625rem 9.1875rem;
+    }
+}
+
+.bg-pattern {
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4.5rem;
+
+    @media (--laptop) {
+        height: 9.5625rem;
+    }
+}

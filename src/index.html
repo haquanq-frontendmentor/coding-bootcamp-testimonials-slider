@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="sr-only">Coding bootcamp testimonials slider</h1>
+      <img class="bg-pattern" src="./assets/images/pattern-curve.svg" alt="" />
+      <div class="testimonials">
+        <div class="testimonials__controls">
+          <img class="testimonials__controls--bg" src="./assets/images/pattern-bg.svg" alt="" />
+          <div class="testimonials__images">
+            <img src="./assets/images/image-tanya.jpg" alt="" />
+            <img src="./assets/images/image-john.jpg" alt="" />
+          </div>
+          <div class="testimonials__controls-btn-group">
+            <button
+              class="testimonials__controls-btn testimonials__controls-btn--prev"
+              aria-label="Previous testimonial"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18">
+                <path fill="none" stroke="currentColor" stroke-width="3" d="M11 1L3 9l8 8" />
+              </svg>
+            </button>
+            <button class="testimonials__controls-btn testimonials__controls-btn--next" aria-label="Next testimonial">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="18">
+                <path fill="none" stroke="currentColor" stroke-width="3" d="M2 1l8 8-8 8" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <ul class="testimonials__slides">
+          <li class="testimonials__slide">
+            <figure class="testimonials__content">
+              <blockquote class="testimonials__quote">
+                “ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend
+                this course enough. I’m now in the job of my dreams and so excited about the future. ”
+              </blockquote>
+              <figcaption class="testimonials__author">
+                <strong class="testimonials__author-name">Tanya Sinclair</strong>
+                <span class="testimonials__author-role">UX Engineer</span>
+              </figcaption>
+            </figure>
+          </li>
+          <li class="testimonials__slide">
+            <figure class="testimonials__content">
+              <blockquote class="testimonials__quote">
+                “ If you want to lay the best foundation possible I’d recommend taking this course. The depth the
+                instructors go into is incredible. I now feel so confident about starting up as a professional
+                developer. ”
+              </blockquote>
+              <figcaption class="testimonials__author">
+                <strong class="testimonials__author-name">John Tarkpor</strong>
+                <span class="testimonials__author-role">Junior Front-end Developer</span>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+        <div class="testimonials__message sr-only" aria-live="polite" aria-atomic="true"></div>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
