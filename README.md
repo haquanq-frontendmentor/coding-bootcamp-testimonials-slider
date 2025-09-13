@@ -8,7 +8,7 @@ This is a solution to the [Coding bootcamp testimonials slider challenge on Fron
       alt="Solution post"
       src="https://img.shields.io/badge/Frontendmentor-blue?label=Solution%20on"
     /></a>
-  <a href="https://haquanq-frontendmentor.github.io/social-media-dashboard-with-theme/">
+  <a href="https://haquanq-frontendmentor.github.io/coding-bootcamp-testimonials-slider/">
     <img
       alt="Live demo"
       src="https://img.shields.io/badge/Demo-teal?label=Live"
