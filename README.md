@@ -71,21 +71,22 @@ Accessibility
 
 Install the following:
 
-- Git (latest LTS recommended)
+- Git (latest version)
 - Node.js (latest LTS recommended)
+- pnpm (latest version)
 
 ### Setup
 
 ```
 git clone https://github.com/haquanq-frontendmentor/coding-bootcamp-testimonials-slider.git
 cd coding-bootcamp-testimonials-slider
-npm install
+pnpm install
 ```
 
 ### Start Development Server
 
 ```
-npm run dev
+pnpm dev
 ```
 
 ## :maple_leaf: Deployment
